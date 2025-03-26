@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #383939;
+    color: #fffedb
+}
+
+h1, .presentacion, .ingredientes, .tips{
+    text-align: center;
+}
+
+
+h1 {
+    background-color: #149c68;
+    padding: 10px;
+}
+
+.preparacion .titulo {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ingredientes .lista {
+    list-style: none;
+}
+
+
+.preparacion .lista {
+    list-style: decimal inside;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ingredientes .title,
+.ingredientes .title,
+.tips .title,
+.presentacion .title {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.link {
+    outline: none;
+    text-decoration: none;
+    padding: 10px 20px 10px;
+    background-color: #149c68;
+} 
+
+.link:link {
+    color: #fffedb;
+}
+
+.link:visited {
+    color: #fffedb;
+}
+
+.link:hover {
+    color: #d8d594;
+}
+
+.link:active {
+    color: #fffedb;
+}
+
+#links {
+    text-align: center;
+    padding: 30px;
+}
